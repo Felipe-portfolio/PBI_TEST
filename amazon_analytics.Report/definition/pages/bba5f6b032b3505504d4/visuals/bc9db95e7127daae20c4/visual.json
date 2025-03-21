@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "6d77b5aa008d96e966d0",
+  "name": "bc9db95e7127daae20c4",
   "position": {
-    "x": 0,
+    "x": 683.5654805670024,
     "y": 0,
-    "z": 0,
+    "z": 2,
     "height": 392.20970196467346,
     "width": 596.71904656053891,
-    "tabOrder": 0
+    "tabOrder": 2
   },
   "visual": {
     "visualType": "lineChart",
@@ -133,41 +133,20 @@
                           "Entity": "AMZN"
                         }
                       },
-                      "Property": "High"
+                      "Property": "Low"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(AMZN.High)",
-              "nativeQueryRef": "Sum of High"
+              "queryRef": "Sum(AMZN.Low)",
+              "nativeQueryRef": "Sum of Low"
             }
           ]
         }
       }
     },
     "objects": {
-      "dataPoint": [
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0.2
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Sum(AMZN.High)"
-          }
-        }
-      ],
       "lineStyles": [
         {
           "properties": {
