@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "089730a40d5e55d0bca1",
+  "position": {
+    "x": 9.78266061619298,
+    "y": 0,
+    "z": 0,
+    "height": 152.8540721280153,
+    "width": 540.49199904466207,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PETAL_MODEL"
+                    }
+                  },
+                  "Property": "SPECIES"
+                }
+              },
+              "queryRef": "PETAL_MODEL.SPECIES",
+              "nativeQueryRef": "SPECIES"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PETAL_MODEL"
+                    }
+                  },
+                  "Property": "Avg sepal Length"
+                }
+              },
+              "queryRef": "PETAL_MODEL.Avg sepal Length",
+              "nativeQueryRef": "Avg sepal Length"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PETAL_MODEL"
+                    }
+                  },
+                  "Property": "Max Petal Length"
+                }
+              },
+              "queryRef": "PETAL_MODEL.Max Petal Length",
+              "nativeQueryRef": "Max Petal Length"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PETAL_MODEL"
+                    }
+                  },
+                  "Property": "Avg Petal Length"
+                }
+              },
+              "queryRef": "PETAL_MODEL.Avg Petal Length",
+              "nativeQueryRef": "Avg Petal Length"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "PETAL_MODEL"
+                    }
+                  },
+                  "Property": "Min Petal Length"
+                }
+              },
+              "queryRef": "PETAL_MODEL.Min Petal Length",
+              "nativeQueryRef": "Min Petal Length"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "PETAL_MODEL"
+                  }
+                },
+                "Property": "SPECIES"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
