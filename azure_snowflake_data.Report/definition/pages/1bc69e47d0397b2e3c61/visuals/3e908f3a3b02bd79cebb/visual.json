@@ -166,6 +166,22 @@
           "selector": {
             "metadata": "Sum(PETAL_MODEL.SEPAL_LENGTH)"
           }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "lineStyles": [
